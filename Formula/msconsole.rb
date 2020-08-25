@@ -2,12 +2,12 @@
 class Msconsole < Formula
   desc "A suite of tools to make your life easier!"
   homepage "https://github.com/tempor1s/msconsole"
-  version "1.1.4"
+  version "1.1.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/tempor1s/msconsole/releases/download/v1.1.4/msconsole_1.1.4_macOS-64bit.tar.gz"
-    sha256 "2ad8617b8de2e125420116f879f8df3995d8a3f4eb4cc1c20e13c48f5d553cb3"
+    url "https://github.com/tempor1s/msconsole/releases/download/v1.1.5/msconsole_1.1.5_macOS-64bit.tar.gz"
+    sha256 "998bf8a61d0a75bbce1ed839587a582d3c4d9dcbb5543df037aafa10e99c195a"
   elsif OS.linux?
   end
 
